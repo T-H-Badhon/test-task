@@ -8,20 +8,20 @@ import {
 
 const LatestNews = () => {
   return (
-    <div className="max-w-[1170px]  mx-auto py-20 ">
+    <div className="max-w-[1170px]  mx-auto py-20 px-5">
       <div>
         <h1 className=" text-2xl font-bold">Latest News</h1>
         <div className="border-b-2 border-[#F15B2D] w-[70px] mt-4"></div>
       </div>
 
       <div>
-        <div className="flex items-center mt-16">
-          <div>
+        <div className="flex flex-col md:flex-row md:items-center mt-16">
+          <div className='min-w-[calc(40%)]'>
             <Image
               src={"/latestNews/Image.png"}
               width={900}
               height={500}
-              className="max-w-[540px] w-full aspect-auto"
+              className='w-full h-full aspect-auto object-cover' 
               alt="right image"
             />
           </div>
@@ -60,7 +60,7 @@ const LatestNews = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-3 gap-4">
+      <div className="grid md:grid-cols-3 gap-4">
         <NewsCard />
         <NewsCard />
         <NewsCard />

@@ -5,8 +5,8 @@ import { PiUserCirclePlusFill } from "react-icons/pi";
 
 const HeroSection = () => {
   return (
-    <div className="h-[765px] bg-[#004464] w-full">
-      <div className="max-w-[1170px] h-full mx-auto flex items-center justify-between ">
+    <div className="md:h-[765px] bg-[#004464] w-full">
+      <div className="max-w-[1170px] h-full mx-auto flex flex-col md:flex-row items-center justify-between ">
         <div className="flex-1 max-w-[569px]">
           <h1 className="text-lg">ELEVATING</h1>
           <div className="max-w-[569px] w-full text-white relative">

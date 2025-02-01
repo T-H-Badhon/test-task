@@ -4,13 +4,13 @@ import { IoInformationCircle, IoStar } from 'react-icons/io5';
 
 const OurProgram = () => {
     return (
-        <div className="max-w-[1170px] mx-auto">
+        <div className="max-w-[1170px] mx-auto px-5">
                     <div className='pt-40'>
                         <h1 className="text-center text-2xl font-bold">Our Programs</h1>
                         <div className='border-b-2 border-[#F15B2D] w-[70px] mx-auto mt-4'></div>
                     </div>
         
-                    <div className='w-full grid grid-cols-3 mt-14'>
+                    <div className='w-full grid md:grid-cols-3 mt-14 space-y-5 md:space-y-0'>
                         <div className='flex items-center gap-2 w-full border-b-[4px] px-2 pb-2 border-[#29BDBF]'>
                             <div>
                                 <Image src={"/ourprogram/self-development.png"} width={50} height={50} className='w-10 aspect-square' alt="icon"/>
@@ -31,7 +31,7 @@ const OurProgram = () => {
                         </div>
                     </div>
 
-                    <div className='grid grid-cols-3 py-16 gap-4'>
+                    <div className='grid  md:grid-cols-3 py-16 gap-4'>
                         <ProgramCard image={"/ourprogram/1.png"} title={"IT Support Specialist"} />
                         <ProgramCard image={"/ourprogram/2.png"} title={"Digital Marketing"} />
                         <ProgramCard image={"/ourprogram/3.png"} title={"Online Sales and Marketing"} />

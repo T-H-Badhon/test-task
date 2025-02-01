@@ -7,7 +7,7 @@ const Ready = () => {
         <h2 className="text-2xl font-bold text-black text-right">
           Ready to start your <br  /> career?
         </h2>
-        <div className="border-l-2 border-black pl-6 mt-4 md:mt-0">
+        <div className="md:border-l-2 md:border-black pl-6 mt-4 md:mt-0">
           <p className="text-lg font-semibold text-white">
             We are waiting for you to contact us
           </p>

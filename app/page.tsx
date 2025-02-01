@@ -1,3 +1,4 @@
+import Footer from "@/components/home/Footer";
 import HeroCards from "@/components/home/HeroCards";
 import HeroSection from "@/components/home/HeroSection";
 import HowDoesItDone from "@/components/home/HowDoesItDone";
@@ -37,6 +38,7 @@ const HomePage = () => {
       <Testimonials/>
       <LatestNews/>
       <Ready/>
+      <Footer/>
     </div>
   );
 };
