@@ -28,7 +28,7 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold">ADDRESSES</h3>
             <p className="text-sm">Mobile: 01712 944 876</p>
-            <p className="text-sm">info@buliipetech.com</p>
+            <p className="text-sm">info@bulipetech.com</p>
             <p className="text-sm">
               House: 82, Road: 23/16, Block: A, Banani, Dhaka-1213
             </p>
