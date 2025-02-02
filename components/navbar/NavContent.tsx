@@ -10,7 +10,7 @@ const NavContent = () => {
                 <Image src={"/logos/Logo-Main.png"} width={200} height={100} alt='logo' className="w-[100px] md:w-[140px] lg:w-[173px] aspect-auto"/>
             </div>
 
-            <div className='uppercase flex items-center gap-2 text-[14px] font-semibold hidden lg:block'>
+            <div className='uppercase items-center gap-2 text-[14px] font-semibold hidden lg:flex'>
                 <h1 className='text-[#0786C0]'>Home</h1>
                 <h1 className='text-[#004464]'>about us</h1>
                 <h1 className='text-[#004464]'>programs</h1>

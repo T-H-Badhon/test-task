@@ -15,18 +15,18 @@ const LatestNews = () => {
       </div>
 
       <div>
-        <div className="flex flex-col md:flex-row md:items-center mt-16">
-          <div className='min-w-[calc(40%)]'>
+        <div className="grid md:grid-cols-11 mt-16">
+          <div className='md:col-span-5 bg-[#F2F2F2] rounded-t-3xl md:md:rounded-s-3xl'>
             <Image
               src={"/latestNews/Image.png"}
               width={900}
               height={500}
-              className='w-full h-full aspect-auto object-cover' 
+              className='w-full h-full aspect-auto object-cover rounded-3xl md:rounded-none overflow-hidden' 
               alt="right image"
             />
           </div>
 
-          <div className="bg-[#F2F2F2] h-full min-h-[342px] flex-1 p-5 place-content-center space-y-5">
+          <div className="bg-[#F2F2F2] h-full md:col-span-6 p-5 place-content-center space-y-5">
             <button className="py-2 px-4 bg-cyan-400/15 rounded-full">
               Current Event
             </button>

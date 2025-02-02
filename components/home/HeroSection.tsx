@@ -8,7 +8,7 @@ const HeroSection = () => {
     <div className="md:h-[765px] bg-[#004464] w-full">
       <div className="max-w-[1170px] h-full mx-auto flex flex-col md:flex-row items-center justify-between ">
         <div className="flex-1 max-w-[569px]">
-          <h1 className="text-lg">ELEVATING</h1>
+          <h1 className="text-lg text-white">ELEVATING</h1>
           <div className="max-w-[569px] w-full text-white relative">
             <div className="text-[52px] font-medium relative w-full  z-20">
               <h1>IT Service Industry with Digital Skills Development</h1>
