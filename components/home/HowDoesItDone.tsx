@@ -9,7 +9,7 @@ const HowDoesItDone = () => {
         <div className="border-b-2 border-[#F15B2D] w-[70px] mx-auto mt-4"></div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-14 pt-52">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-20 md:gap-14 pt-52 px-5">
         <Card_one />
         <Card_two />
         <Card_three />

@@ -24,7 +24,7 @@ const HomePage = () => {
       </div>
 
       <div
-        className="bg-[#F2F2F2] py-20 "
+        className=" pb-20 "
         style={{
           backgroundImage: "url('/ourprogram/Background.png')",
           backgroundSize: "cover",

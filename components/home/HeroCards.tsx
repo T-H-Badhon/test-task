@@ -3,7 +3,7 @@ import React from "react";
 
 const HeroCards = () => {
   return (
-    <div className="mx-auto px-5 max-w-[1170px] grid grid-cols-1 md:grid-cols-3 gap-4">
+    <div className="mx-auto px-5 max-w-[1170px] grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-4 my-20 md:my-0">
       <Card_one />
       <Card_two />
       <Card_three />
@@ -15,7 +15,7 @@ export default HeroCards;
 
 const Card_one = () => {
   return (
-    <div className="bg-white min-h-[300px] rounded-2xl relative md:-top-[100px] shadow-xl mt-[60px]">
+    <div className="bg-white min-h-[300px] rounded-2xl relative card-shadow-full md:-top-[100px] shadow-xl mt-[60px]">
       <div className="absolute -top-[50px] w-full ">
         <div className="bg-[#004464] p-1 rounded-full w-fit mx-auto ">
           <div className="border-white border-[2px] rounded-full w-fit">
@@ -46,7 +46,7 @@ const Card_one = () => {
 
 const Card_two = () => {
   return (
-    <div className="bg-white min-h-[300px] rounded-2xl relative md:-top-[100px] shadow-xl mt-[60px]">
+    <div className="bg-white min-h-[300px] rounded-2xl card-shadow-full relative md:-top-[100px] shadow-xl mt-[60px]">
       <div className="absolute -top-[50px] w-full ">
         <div className="bg-[#004464] p-1 rounded-full w-fit mx-auto ">
           <div className="border-white border-[2px] rounded-full w-fit">
@@ -77,7 +77,7 @@ const Card_two = () => {
 
 const Card_three = () => {
   return (
-    <div className="bg-white min-h-[300px] rounded-2xl relative  md:-top-[100px] shadow-xl mt-[60px]">
+    <div className="bg-white min-h-[300px] rounded-2xl card-shadow-full relative  md:-top-[100px] shadow-xl mt-[60px]">
       <div className="absolute -top-[50px] w-full ">
         <div className="bg-[#004464] p-1 rounded-full w-fit mx-auto ">
           <div className="border-white border-[2px] rounded-full w-fit">

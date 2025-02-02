@@ -73,7 +73,7 @@ export default LatestNews;
 
 const NewsCard = () => {
   return (
-    <div className="rounded-b-2xl border-2">
+    <div className="">
       <div>
         <Image
           src={"/latestNews/Mask group (1).png"}
@@ -84,7 +84,7 @@ const NewsCard = () => {
         />
       </div>
 
-      <div className=" flex-1 p-5 place-content-center space-y-5">
+      <div className=" flex-1 p-5 place-content-center space-y-5 border-2 border-t-0 rounded-b-2xl ">
         <button className="py-2 px-4 bg-cyan-400/15 rounded-full">
           Technology
         </button>
