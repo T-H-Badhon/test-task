@@ -50,24 +50,24 @@ const OurPartners=()=> {
           </div>
         </div>
 
-        <div className="flex gap-8 mb-12 overflow-x-auto pb-2 font-semibold">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12 overflow-x-auto pb-2 font-semibold">
             <button
-              className='text-lg whitespace-nowrap text-[#29BDBF]'
+              className='text-base md:text-lg whitespace-nowrap text-[#29BDBF]'
             >
               Technology Partners
             </button>
             <button
-              className='text-lg whitespace-nowrap'
+              className='text-base md:text-lg whitespace-nowrap'
             >
               Branding Partners
             </button>
             <button
-              className='text-lg whitespace-nowrap'
+              className='text-base md:text-lg whitespace-nowrap'
             >
               Training Partners
             </button>
             <button
-              className='text-lg whitespace-nowrap'
+              className='text-base md:text-lg whitespace-nowrap'
             >
               Banking Partners
             </button>
